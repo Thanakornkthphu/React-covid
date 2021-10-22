@@ -1,0 +1,58 @@
+.container_app {
+    margin: 0 auto;
+    padding: 0;
+
+    align-items: center;
+    margin-top: 20px;
+    width: 90%;
+}
+
+.app_left {
+    float: left;
+}
+
+.app_header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.dropdown_country {
+    width: 220px;
+    height: 40px;
+
+    border: 2px solid grey;
+    border-radius: 7px;
+    padding: 0 10px;
+    outline: none;
+}
+
+.dropdown_country:hover {
+    border: 2px solid rgb(255, 137, 27);
+    cursor: pointer;
+}
+
+.dropdown_country:focus {
+    border: 2px solid rgb(255, 137, 27);
+}
+
+.app_right {
+    float: right;
+    width: 455px;
+
+    border-radius: 10px;
+    box-shadow: 0px 7px 13px 2px rgb(233, 233, 233);
+}
+
+.app_right .app_right_container {
+    padding: 20px 20px;
+}
+
+.app_right .MuiCardContent-root {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+.graph {
+    flex-grow: 1;
+}

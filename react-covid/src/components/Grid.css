@@ -1,0 +1,69 @@
+.app_grid {
+    display: flex;
+}
+
+.grid_item {
+    width: 225px;
+    margin-left: 25px;
+    padding: 20px 0px;
+
+    cursor: pointer;
+    border-radius: 13px;
+    box-shadow: 0px 7px 13px 2px rgb(233, 233, 233);
+}
+
+.grid_item:hover {
+    background-color: rgb(250, 250, 250);
+}
+
+.grid_item:active {
+    background-color: rgb(255, 255, 255);
+}
+
+.text_grid {
+    text-align: center;
+}
+
+.title_case {
+    color: rgb(189, 189, 189);
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.grid_item--selected {
+    border-top: 10px solid rgb(255, 137, 27);
+}
+
+.total_case {
+    color: rgb(189, 189, 189);
+    font-weight: 600;
+    font-size: 14px;
+}
+
+#orange {
+    color: rgb(255, 81, 0);
+}
+
+#green {
+    color: rgb(32, 233, 122);
+}
+
+#red {
+    color: rgb(255, 0, 0);
+}
+
+/* #confirmed {
+    color: rgb(255, 111, 0);
+}
+
+#deaths {
+    color: rgb(255, 0, 0);
+}
+
+#hospitalized {
+    color: rgb(0, 199, 173);
+}
+
+#recovered {
+    color: rgb(53, 216, 53);
+} */
