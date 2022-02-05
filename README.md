@@ -1,2 +1,2 @@
 # react-covid
- use data from API.
+get data from API.
