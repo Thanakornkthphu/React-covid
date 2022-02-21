@@ -1,5 +1,5 @@
 # react-covid
   
  - Create map with leaflet map js
- - Fecthing data axios 
- - create graph
+ - Fecthing data with axios 
+ - Create graph with react-chart-js
